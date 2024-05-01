@@ -140,8 +140,8 @@ $(document).ready(function() {
 				js: self.createJS(),
 				editors: '001',
 				css: 'html, body, #map { width: 100%; height: 100%; margin: 0px; }', 
-				js_external: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js',
-				css_external: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css',
+				js_external: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
+				css_external: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
 				js_library: 'jquery'
 			});
 		}, this);
